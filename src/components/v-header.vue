@@ -57,6 +57,10 @@ export default defineComponent({
             img{
                 height: 100%;
                 width: 100%;
+                transition: 0.5s;
+                &:hover{
+                    filter: invert(52%) sepia(1%) saturate(0%) hue-rotate(113deg) brightness(96%) contrast(100%);
+                }
             }
         }
         .sidenav{
